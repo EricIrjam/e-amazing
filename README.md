@@ -57,9 +57,15 @@ Ce qu'il est demandé de réaliser:
 Le jeu de données est disponible aux liens suivants :
 
 2019-Oct.csv.gz (1.62Gb) [https://data.rees46.com/datasets/marketplace/2019-Oct.csv.gz] 
+
 2019-Nov.csv.gz (2.69Gb) [https://data.rees46.com/datasets/marketplace/2019-Nov.csv.gz] 
+
 2019-Dec.csv.gz (2.74Gb) [https://data.rees46.com/datasets/marketplace/2019-Dec.csv.gz] 
+
 2020-Jan.csv.gz (2.23Gb) [https://data.rees46.com/datasets/marketplace/2020-Jan.csv.gz] 
+
 2020-Feb.csv.gz (2.19Gb) [https://data.rees46.com/datasets/marketplace/2020-Feb.csv.gz] 
+
 2020-Mar.csv.gz (2.25Gb) [https://data.rees46.com/datasets/marketplace/2020-Mar.csv.gz] 
+
 2020-Apr.csv.gz (2.73Gb) [https://data.rees46.com/datasets/marketplace/2020-Apr.csv.gz]
