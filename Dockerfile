@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
 # Mettre à jour pip, setuptools et wheel pour assurer la compatibilité
 RUN pip install --upgrade pip setuptools wheel
 
-# Installer PySpark, Jupyter Notebook, scikit-learn, pandas, matplotlib, seaborn, pyarrow, fastparquet, et dask
+# Installer PySpark, Jupyter Notebook, scikit-learn, pandas, matplotlib, seaborn, pyarrow, fastparquet, dask et TensorFlow 2.13.0
 RUN pip install --no-cache-dir --timeout=100 \
     pyspark \
     jupyter \
@@ -26,7 +26,12 @@ RUN pip install --no-cache-dir --timeout=100 \
     seaborn \
     pyarrow \
     fastparquet \
-    dask[complete]
+    dask[complete] \
+    tensorflow==2.13.0 \
+    tensorflow-addons
+
+# Rétrograder NumPy si nécessaire pour la compatibilité avec TensorFlow
+RUN pip install --no-cache-dir numpy==1.23.5
 
 # Créer un dossier de travail dans le conteneur
 WORKDIR /app
