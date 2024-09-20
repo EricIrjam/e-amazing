@@ -44,14 +44,6 @@ Le projet e-amazing a pour but de développer une solution d'Intelligence Artifi
 Le projet e-amazing a permis de développer une solution IA sur mesure, optimisée pour les besoins spécifiques de l’entreprise. En s’appuyant sur une analyse rigoureuse des données et une modélisation adaptée, le projet offre des perspectives nouvelles pour la résolution de problématiques métiers et l’anticipation des besoins futurs, tout en respectant les contraintes réglementaires et techniques de l’environnement existant.
 
 
-Ce qu'il est demandé de réaliser:
-
-- Le nettoyage et l'exploration des données.
-- Construire des variables explicatives permettant d'expliquer les concomptements des utilisateurs de la market place.
-- Réaliser plusieurs segmentations à l'aide de modèle de machine learning non supervisés.
-- Identitifer la segmentation la plus actionable par des équipes marketing et en réaliser l'interprétation
-- Définir la périodicité de réentrainement des modèles afin d'en maintenir les performances. 
-
 
 
 Le jeu de données est disponible aux liens suivants :
