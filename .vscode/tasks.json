@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Containers: Shell: e_amazing-pyspark-1",
+            "type": "shell",
+            "command": "docker exec -it 6ddbf606d185406f445fcfb09a46ad72ea67c7da2141dea1145d02d1498dce1a bash",
+            "problemMatcher": []
+        }
+    ]
+}
