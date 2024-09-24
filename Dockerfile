@@ -36,7 +36,11 @@ RUN pip install --no-cache-dir numpy==1.23.5
 # Créer un dossier de travail dans le conteneur
 WORKDIR /app
 
-# Copier le contenu de votre dossier local dans le conteneur
+# Copier le fichier .parquet dans le conteneur
+# Assurez-vous que le fichier full_df_output.parquet est dans le même dossier que votre Dockerfile
+COPY ./data/full_df_output.parquet /app/data/full_df_output.parquet
+
+# Copier le reste du contenu dans le conteneur
 COPY . /app
 
 # Exposer le port pour Jupyter Notebook

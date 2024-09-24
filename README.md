@@ -61,5 +61,3 @@ Le jeu de données est disponible aux liens suivants :
 2020-Mar.csv.gz (2.25Gb) [https://data.rees46.com/datasets/marketplace/2020-Mar.csv.gz] 
 
 2020-Apr.csv.gz (2.73Gb) [https://data.rees46.com/datasets/marketplace/2020-Apr.csv.gz]
-
-test
